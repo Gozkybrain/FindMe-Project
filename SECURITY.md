@@ -1,6 +1,6 @@
 # FindMe - Developer Guide
 
-## Overview
+## App Overview
 
 FindMe is a LinkedIn profile scraper wrapped in a Next.js UI. It launches a real Chromium browser (via Playwright), injects the user's own LinkedIn session cookies, and runs people searches on LinkedIn directly. No API keys, no third-party data brokers.
 
