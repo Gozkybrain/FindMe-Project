@@ -55,12 +55,14 @@ Results appear in a table, can be exported as JSON or copied individually.
 | **Cost** | Free | $50–500/mo per tool |
 | **Accuracy** | Current, real LinkedIn data | Often outdated or wrong |
 
+
 ## Important
 
 - **Cannot deploy to Vercel / Netlify** - requires Playwright + Chromium (~300MB binary). Must run locally or on a VPS.
 - **Rate limits** depend on your LinkedIn account activity. Start with 10–20 profiles per scan.
 - **Cookies expire** after ~12 hours. Re-export from LinkedIn to refresh.
 - **No user data is stored or transmitted** - cookies stay in browser memory, temporary files are deleted after each scan.
+
 
 ## Tech Stack
 
